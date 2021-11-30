@@ -21,3 +21,8 @@ String iAmStringFunction(String iAmString) {
   return result;
 
 }
+
+// 調度函數
+無效 主（） {
+  print(iAmStringFunction('great'));
+}

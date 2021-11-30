@@ -1,6 +1,7 @@
 /*
 
 Author: Meng-Shan Lee
+https://www.linkedin.com/in/meng-shan-lee-188035227/
 
 ToDo:
 重新切割成多函數的方式，並搭配async/await，讓程式碼看起來更簡潔一些

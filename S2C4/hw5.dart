@@ -1,6 +1,7 @@
 /*
 
 Author: Meng-Shan Lee
+https://www.linkedin.com/in/meng-shan-lee-188035227/
 
 ToDo:
 以迴圈的方式，print出一個9*9的九九乘法表

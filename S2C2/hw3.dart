@@ -19,3 +19,7 @@ void iWillNotReturnValue() {
 
 }
 
+// 調度函數
+void main() {
+  iWillNotReturnValue();
+}

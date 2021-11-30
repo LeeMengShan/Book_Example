@@ -22,4 +22,7 @@ int iAmIntFunction(String iAmInt) {
 
 }
 
-
+// 調度函數
+無效 主（）{
+  print(iAmIntFunction('5'));
+}

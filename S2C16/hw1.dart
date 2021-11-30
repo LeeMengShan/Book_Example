@@ -1,6 +1,7 @@
 /*
 
 Author: Meng-Shan Lee
+https://www.linkedin.com/in/meng-shan-lee-188035227/
 
 ToDo:
 定義一個Animal抽象類別，
@@ -11,23 +12,19 @@ ToDo:
 */
 
 abstract class Animal {
-
   // 定義基本屬性，留到核心建構子，進行定義
   String name;
-  
+
   // 核心建構子
   Animal(this.name);
 
   // 定義了echo，但未編寫內容
   void echo();
-
 }
-
 
 // 狗屬於動物的一種，以class 設置了狗，並讓其繼承Animal
 // 類別一但繼承了抽象類別，就必須要實踐那些抽象類別還沒有完成編寫的函數
-class Dog extends Animal{
-
+class Dog extends Animal {
   // 狗類別的建構子，用戶輸入之後，完成Dog類別的物件建置，並將該些內容交付給父類別的建構子。
   Dog(String name) : super(name);
 
@@ -37,13 +34,11 @@ class Dog extends Animal{
   void echo() {
     print("汪");
   }
-
 }
 
 // 貓屬於動物的一種，以class 設置了貓，並讓其繼承Animal
 // 類別一但繼承了抽象類別，就必須要實踐那些抽象類別還沒有完成編寫的函數
-class Cat extends Animal{
-
+class Cat extends Animal {
   // 貓類別的建構子，用戶輸入之後，完成Cat類別的物件建置，並將該些內容交付給父類別的建構子。
   Cat(String name) : super(name);
 
@@ -54,5 +49,15 @@ class Cat extends Animal{
   void echo() {
     print("喵");
   }
-
 }
+
+void main() {
+  Animal cat1 = Cat("Tom");
+  print(cat1.name);
+  cat1.echo();
+
+  Animal dog1 = Dog("Snoopy");
+  print(dog1.name);
+  dog1.echo();
+}
+

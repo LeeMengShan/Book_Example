@@ -1,6 +1,7 @@
 /*
 
 Author: Meng-Shan Lee
+https://www.linkedin.com/in/meng-shan-lee-188035227/
 
 ToDo:
 定義一個Human抽象類別，
@@ -54,4 +55,15 @@ class European extends Human{
     print("Hello");
   }
 
+}
+
+
+void main() {
+  Human asian1 = Asian("human1");
+  print(asian1.name);
+  asian1.echo();
+
+  Human european1 = European("human2");
+  print(european1.name);
+  european1.echo();
 }

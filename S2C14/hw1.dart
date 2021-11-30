@@ -1,6 +1,7 @@
 /*
 
 Author: Meng-Shan Lee
+https://www.linkedin.com/in/meng-shan-lee-188035227/
 
 ToDo:
 建立一個Cat類別，
@@ -53,5 +54,34 @@ class Cat {
 
 }
 
+// 調度
+void main() {
+  Cat Tom = Cat('英國短毛貓', 33);
+  print(Tom.variety);
+  print(Tom.weight);
+  Tom.echo();
+
+  // fromJson
+  // 準備一個 json String
+  String kitty = """{"variety":"沒有嘴巴的貓", "weight": 15.0}""";
+  // 轉換成dart 可操作的dynamic json 資料型態
+  dynamic kittyToDartDynamic = jsonDecode(kitty);
+  // 轉換成cat 物件
+  Cat kittyCat = Cat.fromJson(kittyToDartDynamic);
+  print(kittyCat.variety);
+  print(kittyCat.weight);
+  kittyCat.echo();
+
+  // toJson
+  // 將原本的user物件轉換成 符合json格式的String
+  String catObjectTojsonString = Tom.toJson();
+  // 再將此String，轉換為可操作的dynamic json資料型態
+  dynamic jsonStringToDartJson = jsonDecode(catObjectTojsonString);
+  // 轉換成user 物件
+  Cat theCatJerryHate = Cat.fromJson(jsonStringToDartJson);
+  print(theCatJerryHate.variety);
+  print(theCatJerryHate.weight);
+  
+}
 
 

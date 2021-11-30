@@ -1,6 +1,7 @@
 /*
 
 Author: Meng-Shan Lee
+https://www.linkedin.com/in/meng-shan-lee-188035227/
 
 ToDo:
 建立一個Cat類別，
@@ -25,3 +26,8 @@ class Cat {
   }
 }
 
+//  調度class
+void main(List<String> args) {
+  Cat Tom = Cat('英國短毛貓', 33);
+  Tom.score();
+}

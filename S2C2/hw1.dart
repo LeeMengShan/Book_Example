@@ -23,6 +23,6 @@ String iAmStringFunction(String iAmString) {
 }
 
 // 調度函數
-無效 主（） {
+void main() {
   print(iAmStringFunction('great'));
 }

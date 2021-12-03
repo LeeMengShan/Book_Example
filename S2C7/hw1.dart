@@ -39,10 +39,10 @@ void main() {
     }""";
 
   // 解析成可操作的Array
-  Map<dynamic, dynamic> jsonArray = jsonDecode(validNestedJsonObjectString);
+  Map<dynamic, dynamic> bigJsonObject = jsonDecode(validNestedJsonObjectString);
   
   // 調度Map內其中一個json object，提取索引值為3的欄位，即arrayInJsonObject所在之欄位
-  Map<dynamic, dynamic> jsObject = jsonArray["jsonObject"];
+  Map<dynamic, dynamic> jsObject = bigJsonObject["jsonObject"];
   
   // 提出arrayInJsonObject的內容值
   print(jsObject['arrayInJsonObject']);

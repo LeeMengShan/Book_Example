@@ -23,6 +23,6 @@ int iAmIntFunction(String iAmInt) {
 }
 
 // 調度函數
-無效 主（）{
+void main(){
   print(iAmIntFunction('5'));
 }

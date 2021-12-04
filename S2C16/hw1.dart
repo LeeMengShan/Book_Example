@@ -52,12 +52,18 @@ class Cat extends Animal {
 }
 
 void main() {
+  // 建立一個Cat物件
   Animal cat1 = Cat("Tom");
+  // 調度名字
   print(cat1.name);
+  // 使用echo函數
   cat1.echo();
 
+  // 建立一個Dog物件
   Animal dog1 = Dog("Snoopy");
+  // 調度名字
   print(dog1.name);
+  // 使用echo函數
   dog1.echo();
 }
 

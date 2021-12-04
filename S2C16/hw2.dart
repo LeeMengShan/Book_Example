@@ -59,11 +59,17 @@ class European extends Human{
 
 
 void main() {
+  // 創建一個亞洲人，但宣告型別為人類
   Human asian1 = Asian("human1");
+  // 調度姓名
   print(asian1.name);
+  // 調度echo函數
   asian1.echo();
 
+  // 創建一個歐洲人，但宣告型別為人類
   Human european1 = European("human2");
+  // 調度姓名
   print(european1.name);
+  // 調度echo函數
   european1.echo();
 }

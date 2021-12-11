@@ -1,0 +1,19 @@
+/*
+Author: Meng-Shan Lee
+https://www.linkedin.com/in/meng-shan-lee-188035227/
+
+ToDo:
+將Container以下的參數了解一遍，alignment, padding, color, decoration, width, height, constraints, margin，並用中文寫下自己的理解。
+
+*/
+
+
+Container
+-alignment：設定對齊方式
+-padding：設定內部間距
+-color：設定背景顏色
+-decoration：設定背景圖案（邊框、圓角、陰影等等）
+-width：設定寬度
+-height：設定高度
+-constraints：設定最大高度、最大寬度、最小高度、最小寬度
+-margin：設定外部間距

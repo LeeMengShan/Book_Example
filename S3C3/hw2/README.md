@@ -4,13 +4,9 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+編寫一個HomeScreen類別，並回傳Scaffold，Scaffold內回傳一個Container，
+指定長400、寬400，黑色底幕，內容為「主頁」，文字顏色為白色。
+    => lib/HomeScreen.dart
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+並建置一個AppEntryPoint作為MaterialApp，引入HomeScreen，觀看效果。
+    => lib/main.dart

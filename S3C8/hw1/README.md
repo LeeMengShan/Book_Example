@@ -4,13 +4,12 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+在components資料夾內，編寫一個側邊欄，設置兩個ListTile，
+點擊ListTile時，會分發到後續的兩個頁面。
 
-A few resources to get you started if this is your first Flutter project:
+第一個頁面為FirstScreen，訪問其路徑/first時，會看見側邊欄與一個文字內容，「第一個頁面」。
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+第二個頁面為SecondScreen，訪問其路徑/second時，會看見側邊欄與一個文字內容，「第二個頁面」。
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+而後引用至FirstScreen與SecondScreen。
+

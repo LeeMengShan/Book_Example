@@ -4,13 +4,11 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+以分層資料夾格式，編寫一個部落格網站，
 
-A few resources to get you started if this is your first Flutter project:
+components具有側邊欄，可以導引到各頁面。
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+設計一個component，此component功能為個人照，具有底色，個人照在底色之上。
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+第一頁為個人與作品介紹、第二頁為實習履歷介紹、第三頁為個人興趣。
+

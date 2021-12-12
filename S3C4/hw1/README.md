@@ -4,13 +4,13 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+課程內容是以Column當作展示，現在請大家以Row進行三個階段的改寫，每個階段分別以一個檔案展現。 
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+第一階段，先將Container 擺放進Row內，讓畫面可以正常瀏覽。
+    => lib/screens/step1.dart
+第二階段將Container的比例放大，並透過Expanded進行畫面配比。
+    => lib/screens/step2.dart
+第三個階段透過SingleChildScrollView，讓組件可以超出畫面。
+    => lib/screens/step3.dart
+    
+    

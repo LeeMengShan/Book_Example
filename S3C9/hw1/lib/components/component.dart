@@ -27,7 +27,11 @@ class Component extends StatelessWidget {
         body: SingleChildScrollView(
           // 放入一個Container
           child: Container(
-            height: 300,
+
+            //設定container的大小與底色
+            height: 400,
+            width: 400,
+            color: Colors.purple[100],
 
             // 創建一個名為asset的資料夾，將要使用的照片放進去
             // 到pubspec.yaml 加入asset的照片取用
@@ -37,9 +41,14 @@ class Component extends StatelessWidget {
                   - asset/p1.jpg(欲取用的照片檔名)
             */
             child: Image(
+
+              //限制圖片大小
+              height: 200,
+
               image: AssetImage('asset/p1.jpg'),
             ),
           ),
-        ));
+        )
+      );
   }
 }

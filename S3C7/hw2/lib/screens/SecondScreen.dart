@@ -38,7 +38,7 @@ class SecondScreen extends StatelessWidget {
             // 文字按鈕內容為「跳轉前頁」
             child:Text("跳轉前頁"),
             onPressed: (){
-              Navigator.pushNamed(context, "/first");
+              Navigator.pop(context);
             },
           )
         ]
